@@ -1,0 +1,309 @@
+*{
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  height: 100%;
+}
+body{
+    display:block;
+   background:rgba(255, 0, 221, 0.753);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+  }
+
+/* começo do cabecalho*/
+.logo{
+    margin: 5px;
+    padding-left: 250px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+     height: 100vh;
+     background-position:top;
+     background-size:cover;}
+.menu{
+        margin: auto;
+        position:relative;
+        width: 100%;
+        display:grid;
+        align-items: center;
+        justify-content: space-around;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.menu .ativo, nav .menu a:hover{
+    color: black;
+    background-color: white;
+}
+.menu a{
+        color: white;
+        margin-left: 3px;
+        padding: 8px 12px;
+        border-radius: 10px;
+        transition: 200ms;
+}
+h2{
+    margin: auto;
+    color: white;
+    padding-left: 250px;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 30px;
+}   
+.redes-sociais ul li{
+    display: inline-flex;
+    padding: 30px;
+    margin-left: 115px;
+}
+
+.pagamentos img{
+    margin: auto;
+    display: inline-flex;
+}
+p{
+    margin: auto;
+    margin-left: 55px;
+    margin-top:-25px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 15px;
+}
+.pagamentos ul li{
+    margin: auto;
+
+}
+.pixx{
+    padding: 8px;
+}
+.cartao p{
+    margin: 8px;
+}
+.marcas{
+    display: flex;
+    margin-left: 350px;
+    margin-top: -140px;
+}
+.marcas p {
+    margin: 8px;
+}
+iframe{
+  margin-left: 170px;
+  margin-top: 20px;
+}
+
+/*fim do cabeçalho*/
+
+/* começo minha historia*/
+.historia{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.titulo{
+  text-align: center;
+  margin-right: 250px;
+  margin-top: 30px;
+  font-family: monospace;
+}
+.dani{
+  margin-left: 250px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, -1fr);
+  }
+  .grid-item {
+    padding: 30px;
+    margin: auto;
+  }
+  .text{
+    text-align:center;
+    font-size: 30px;
+  }
+  /*fim da minha historia*/
+h1{
+    margin: auto;
+    margin-left: 55px;
+    margin-top:-25px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 15px;
+}
+
+carrosel
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  font-family:monospace;
+  font-size: 40px;
+}
+
+.container {
+  position: relative;
+  padding: 110px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: rgb(0, 0, 0);
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, rgb(255, 255, 255));
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, rgb(255, 255, 255));
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+  /*fim do carrosel*/
+
+  /*começo de materiais /* começo biosegurança*/
+
+#luva-img{
+  margin-left: 150px;
+  padding: 150px;
+}
+
+.logo2{
+  margin-right:330px;}
+
+.titulo2{
+  text-align: center;
+    margin-top: 30px;
+    margin-right: 250px;
+  font-family: monospace;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, -1fr);
+  }
+  .text2{
+    text-align:justify;
+    font-size: 25px;
+    margin-left: 1000px;
+    margin-top: -525px;  
+  }
+.luva-img{
+  display:grid;
+  margin-left: 150px;
+  padding: 150px;
+  margin-top: -50px;
+}
+.bio{
+  margin-top: -50px;
+}
+ #contato{
+  background: rgb(155, 148, 148);
+  margin-left: 120px;
+
+ }
+/*comeco contato*/
+.subtitulo{
+  color: #fff;
+}
+ form {
+  max-width: 500px;
+  margin: 15px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select,textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 13px;
+  font-size: 16px;
+  
+}
+select option[disabled]:first-child {
+  display: none;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 13px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
