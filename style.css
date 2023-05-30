@@ -9,7 +9,7 @@ html{
 }
 body{
     display:block;
-   background:rgba(255, 0, 221, 0.753);
+   background:rgba(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -36,6 +36,9 @@ header{
         display:grid;
         align-items: center;
         justify-content: space-around;
+}
+#contato{
+    margin: 10px;
 }
 .menu ul li{
     display: inline-block;
@@ -244,7 +247,7 @@ h1 {
     grid-template-columns: repeat(2, -1fr);
   }
   .text2{
-    text-align:justify;
+    text-align:left;
     font-size: 25px;
     margin-left: 1000px;
     margin-top: -525px;  

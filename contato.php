@@ -36,40 +36,40 @@
         <option value="tattoo">Tattoo</option>
         <option value="ambos">Piercing e Tattoo</option>
       </select>
-      
-      <?php
-
-      if (isset($_POST["Nome"])) {
-        $nome = $_POST_POST["nome"];
-        $email = $_POST["email"];
-        $telefone = $_POST["telefone"];
-        $servico =$_POST["servico"];
-        $mensagem = $_POST["mensagem"];
-      }
-      //dados de conexão com o Banco de dados
-      $servidor = "localhost";
-      $usuario_bd = "root";
-      $senha_usuario = "";
-      $banco_dados = "site-tattu";
-
-      //Abrir a conexão com o banco de dados
-      $conexao = mysqli_connect($servidor, $usuario_bd, $senha_usuario, $banco_dados);
-
-      //criar tarefas 
-      $sql = "INSERT INTO contatos (nome, email, telefone, servico, mensagem) VALUES ('$nome', '$email', '$telefone', '$servico', '$mensagem')";
-
-      //executar o sql no banco de dados
-      if (mysqli_query($conexao, $sql)) {
-        echo "Obrigado por entrar em contato! Receberemos sua mensagem em breve.";
-      } else
-        echo "Erro ao inserir os dados: " . mysqli_error($conexao);
-
-      //fechar a conexão com o banco de dados
-      mysqli_close($conexao);
-
-      ?>
-      <button type="submit">Enviar</button>
     </form>
+    <?php
+
+    if (isset($_POST["Nome"])) {
+      $nome = $_POST_POST["nome"];
+      $email = $_POST["email"];
+      $telefone = $_POST["telefone"];
+      $servico = $_POST["servico"];
+      $mensagem = $_POST["mensagem"];
+    }
+    // //dados de conexão com o Banco de dados
+    // $servidor = "localhost";
+    // $usuario_bd = "root";
+    // $senha_usuario = "";
+    // $banco_dados = "site-tattu";
+
+    // //Abrir a conexão com o banco de dados
+    // $conexao = mysqli_connect($servidor, $usuario_bd, $senha_usuario, $banco_dados);
+
+    // //criar tarefas 
+    // $sql = "INSERT INTO contatos (nome, email, telefone, servico, mensagem) VALUES ('$nome', '$email', '$telefone', '$servico', '$mensagem')";
+
+    // //executar o sql no banco de dados
+    // if (mysqli_query($conexao, $sql)) {
+    //   echo "Obrigado por entrar em contato! Receberemos sua mensagem em breve.";
+    // } else
+    //   echo "Erro ao inserir os dados: " . mysqli_error($conexao);
+
+    // //fechar a conexão com o banco de dados
+    // mysqli_close($conexao);
+
+    ?>
+    <button type="submit">Enviar</button>
+
 
     <body>
 
