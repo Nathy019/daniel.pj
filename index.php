@@ -15,15 +15,15 @@
     <nav class="menu">
       <div style="background: #ffff;" id="barra">
       <ul>
-        <li><a href="QmSouEu.html" class="ativo">Quem sou eu</a></li>
-        <li><a href="portifolio.html" class="ativo">Portfólio</a></li>
-        <li><a href="material.html" class="ativo">Materiais</a></li>
-        <li><a href="bio.html" class="ativo">Biosegurança</a></li>
+        <li><a href="QmSouEu.php" class="ativo">Quem sou eu</a></li>
+        <li><a href="portifolio.php" class="ativo">Portfólio</a></li>
+        <li><a href="material.php" class="ativo">Materiais</a></li>
+        <li><a href="bio.php" class="ativo">Biosegurança</a></li>
         <li><a href="contato.php" class="ativo" id="contato">Contato</a></li>
       </ul>
     </div>
       <div class="logo">
-        <a href="index.html"><img src="/imagens/logo.png"></a>
+        <a href="index.php"><img src="imagens/logo.png"></a>
 
       </div>
       <div>
@@ -52,9 +52,9 @@
       <div class="pagamentos">
         <ul>
           <li>
-            <img src="/imagens/cartao.png" alt="logo cartao">
+            <img src="imagens/cartao.png" alt="logo cartao">
             <p>Aceitamos débito e crédito</p>
-            <img class="pixx" src="/imagens/pix.png" alt="logo pix">
+            <img class="pixx" src="imagens/pix.png" alt="logo pix">
             <p>Pix e dinheiro</p>
           </li>
         </ul>
@@ -62,7 +62,7 @@
       <div class="marcas">
         <ul>
           <li>>
-            <img src="/imagens/marca-cartao.png" width="180px" alt="marcas cartao">
+            <img src="imagens/marca-cartao.png" width="180px" alt="marcas cartao">
             <p>Pagamentos a vista com desconto</p>
           </li>
         </ul>

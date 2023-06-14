@@ -11,7 +11,7 @@
 <div class="grid-container2">
   <div class="titulo2">
     <div>
-      <a href="index.html"><img class="dani" src="/imagens/logo.png"></a>
+      <a href="index.php"><img class="dani" src="imagens/logo.png"></a>
     </div>
     <h2>Contato</h2>
   </div>
@@ -46,7 +46,7 @@
       $servico = $_POST["servico"];
       $mensagem = $_POST["mensagem"];
     }
-    // //dados de conexão com o Banco de dados
+    // dados de conexão com o Banco de dados
     // $servidor = "localhost";
     // $usuario_bd = "root";
     // $senha_usuario = "";

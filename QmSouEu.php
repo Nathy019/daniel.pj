@@ -13,12 +13,12 @@
 <main class="historia">
     <div class="grid-container">
       <div class="titulo">
-        <div><a href="index.html"><img class = "dani"src="/imagens/logo.png"></a></div>
+        <div><a href="index.php"><img class = "dani"src="imagens/logo.png"></a></div>
 
         <h2>Minha história</h2>
       </div>
         <div class="grid-item">
-          <img src="/imagens/foto69.jpg" width="250px" height="250px" alt="image">
+          <img src="imagens/foto69.jpg" width="250px" height="250px" alt="image">
         </div>
         <div class="grid-item">
           <p class="text">Acabei entrando na tattoo por conta da época de escola,

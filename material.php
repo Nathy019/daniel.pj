@@ -12,11 +12,11 @@
 
   <div class="titulo2">
     <div class="grid-container2">
-      <div><a href="index.html"><img class="dani" src="/imagens/logo.png"></a></div>
+      <div><a href="index.php"><img class="dani" src="imagens/logo.png"></a></div>
       <h2>Materiais</h2>
     </div>
     <div class="luva-img">
-      <img src="/imagens/luva.png" width="350px" height="350px" alt="image">
+      <img src="imagens/luva.png" width="350px" height="350px" alt="image">
     </div>
     <div>
       <ul>
