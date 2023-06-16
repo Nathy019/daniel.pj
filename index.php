@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="style.css">
   <title>Daanihel</title>
 </head>
@@ -38,13 +39,13 @@
           <li>
             <a href="https://api.whatsapp.com/send?phone=5519994412860&fbclid=PAAaZhRJT6BwdZ5bT99kfirR_0fhjNH9xlZMsoIGKzUdw3mrQseFQLCteY6Jk"
               target="_blank">
-              <img src="/imagens/zap.png" width="50px" alt="logo whatsapp">
+              <img src="imagens/zap.png" width="50px" alt="logo whatsapp">
             </a>
           </li>
 
           <li>
             <a href="https://www.instagram.com/daanihell.ttt/" target="_blank">
-              <img src="/imagens/insta.png" width="50px" alt="logo instagram">
+              <img src="imagens/insta.png" width="50px" alt="logo instagram">
             </a>
           </li>
         </ul>
@@ -70,6 +71,9 @@
     </nav>
   </header>
   <!-- Fim do cabeçalho-->
+  <?php
+        include "rodape.php";
+        ?>
 
 </body>
 

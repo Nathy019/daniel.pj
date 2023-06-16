@@ -38,3 +38,6 @@
             </div>
           </div>
         </main>
+        <?php
+        include "rodape.php";
+        ?>
